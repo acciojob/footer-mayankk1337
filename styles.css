@@ -6,8 +6,8 @@ footer{
 }
 
 .footerContent.link-boxes{
-	display:flex;
-	margin:5%
+	display:flex !important;
+	gap:40px
 }
 
 .footerSection{
@@ -17,12 +17,6 @@ footer{
 .footerBrand{
 	display:flex;
 	justify-content:space-between;
-}
-
-.footerBottom{
-	display:flex;
-	justify-content:space-between;
-	
 }
 
 .footerSection{
@@ -41,8 +35,8 @@ footer{
 	color:red;
 }
 .media-icons {
-	display:flex !important;
-	border-radius:50%;
+	display:flex;
+	gap:15px;
 }
 
 .link-boxes {
@@ -60,12 +54,16 @@ footer{
 }
 
 .footerBottom{
-	width:100vw
-	left:50%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
 	background-color:gray;
 	color: white;
 	padding:40px 30px
 	
 }
+
+
 
 
