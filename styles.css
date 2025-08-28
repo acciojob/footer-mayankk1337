@@ -5,7 +5,7 @@ footer{
 	font-family:Arial,sans-serif
 }
 
-.footerContentlink-boxes{
+.footerContent.link-boxes{
 	display:flex;
 	margin:5%
 }
@@ -40,10 +40,8 @@ footer{
 .footerSection a:hover{
 	color:red;
 }
-.media-icons{
+.media-icons {
 	display:flex;
-	width:40px;
-	height:40px;
 	border-radius:50%;
 }
 
@@ -51,8 +49,6 @@ footer{
 	display:flex;
    flex-direction: row;
 }
-
-
 .footerBottom a{
 	color:lightgray;
 	text-decoration:none;
@@ -65,7 +61,7 @@ footer{
 
 .footerBottom{
 	width:100vw
-	left=50%;
+	left:50%;
 	background-color:gray;
 	color: white;
 	padding:40px 30px
