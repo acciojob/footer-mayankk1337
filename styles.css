@@ -40,12 +40,18 @@ footer{
 .footerSection a:hover{
 	color:red;
 }
-.footermedia-icons{
+.media-icons{
 	display:flex;
 	width:40px;
 	height:40px;
 	border-radius:50%;
 }
+
+.link-boxes {
+	display:flex;
+   flex-direction: row;
+}
+
 
 .footerBottom a{
 	color:lightgray;
