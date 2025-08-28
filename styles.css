@@ -41,7 +41,7 @@ footer{
 	color:red;
 }
 .media-icons {
-	display:flex;
+	display:flex !important;
 	border-radius:50%;
 }
 
